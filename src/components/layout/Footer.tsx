@@ -8,7 +8,7 @@ export function Footer() {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 py-10 flex flex-col sm:flex-row items-center justify-between gap-4">
         <div>
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} {personal.shortName}. Built with Next.js & Tailwind CSS.
+            © {new Date().getFullYear()} {personal.shortName}. All rights reserved.
           </p>
         </div>
         <div className="flex items-center gap-4">

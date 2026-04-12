@@ -15,7 +15,7 @@ type FormData = {
   message: string;
 };
 
-const FORMSPREE_ENDPOINT = "https://formspree.io/f/YOUR_FORMSPREE_ID";
+const FORMSPREE_ENDPOINT = "https://formspree.io/f/xkokwkea";
 
 const directLinks = [
   { label: personal.email, href: `mailto:${personal.email}`, icon: Mail },
