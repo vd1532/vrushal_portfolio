@@ -57,7 +57,7 @@ export function Hero() {
         <motion.div variants={item} className="mb-6">
           <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold bg-primary/10 text-primary border border-primary/20">
             <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" />
-            Open to roles in Drug Product Development & Formulation Science
+            Open to roles in biologics product development & formulation Science
           </span>
         </motion.div>
 
