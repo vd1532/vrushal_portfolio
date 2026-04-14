@@ -15,35 +15,37 @@ export const projects: ResearchProject[] = [
   {
     slug: "tolerogenic-lysops-nanoparticles",
     title:
-      "Development & Biophysical Characterization of Tolerogenic Lysophosphatidylserine Nanoparticles containing Ovalbumin",
+      "Scalable Production & Bio-characterization of Lysophosphatidylserine Nanoparticles Containing Ovalbumin for Immune Tolerance.",
     period: "Jan 2025 – May 2026",
     institution: "SUNY Buffalo",
     type: "MS Thesis",
     highlights: [
-      "Developed an extrusion-free formulation method for 18:1 LysoPS-DMPC nanoparticles loaded with Ovalbumin designed to simplify scale-up while maintaining tolerogenic antigen delivery performance.",
+      "Developed LysoPS-DMPC nanoparticles loaded with ovalbumin using a thin-film hydration method without extrusion — addressing a known scalability constraint in tolerogenic nanoparticle manufacturing.",
       "Characterized nanoparticle size distribution and batch-to-batch consistency using DLS, confirming formulation reproducibility.",
       "Quantified PS surface exposure and membrane fluidity to verify that biophysical attributes critical to tolerogenic function were preserved in the extrusion-free process.",
       "Compared OVA association efficiency with the standard extruded method and verified protein structure after association using CD and intrinsic fluorescence to ensure native protein conformation.",
+      "Prepared sterile nanoparticle formulations under aseptic conditions for downstream biological evaluation.",
+      "Evaluating tolerogenic potential through in-vitro dendritic cell studies, comparing surface marker expression profiles across extrusion-free and extruded formulations.",
     ],
     overview:
       "This thesis project focuses on developing a novel lipid nanoparticle platform for tolerogenic antigen delivery. By incorporating lysophosphatidylserine (LysoPS) into DMPC-based nanoparticles, we aim to mimic apoptotic cell signals that promote immune tolerance rather than activation. The extrusion-free approach is designed to remove a key scale-up bottleneck while preserving the biophysical attributes essential for tolerogenic function.",
     methods: [
-      "Thin-film hydration (extrusion-free)",
       "Dynamic Light Scattering (DLS)",
-      "Annexin V binding assay for PS surface exposure",
-      "Circular Dichroism (CD) spectroscopy",
+      "Circular Dichroism (CD)",
       "Intrinsic fluorescence spectroscopy",
-      "Laurdan fluorescence for membrane fluidity",
       "DPH Anisotropy",
       "Micro BCA protein quantification",
+      "Flow Cytometry",
+      "ELISA",
+      "Mammalian Cell Culture (Cell passaging, cell viability assay)",
     ],
     outcomes: [
       "Successfully formulated LysoPS-DMPC nanoparticles without extrusion",
       "Confirmed PS surface exposure correlating with LysoPS incorporation",
       "Demonstrated preserved protein secondary structure post-loading",
-      "Confirmed batch-to-batch reproducibility via DLS",
+      "Characterized dendritic cell surface marker profiles to assess functional tolerogenic response across preparation methods",
     ],
-    tools: ["DLS (Malvern Zetasizer)", "CD Spectropolarimeter", "Spectrofluorometer", "Plate Reader", "PSvue Sensor"],
+    tools: ["DLS (NICOMP)", "Spectrofluorometer", "Plate Reader", "PSvue Sensor", "Flow Cytometer"]
   },
   {
     slug: "enzymatic-synthesis-perfumery-esters",
@@ -52,7 +54,7 @@ export const projects: ResearchProject[] = [
     institution: "ICT Mumbai (formerly UDCT)",
     type: "M.Tech Thesis",
     highlights: [
-      "Designed and executed multi-parameter enzymatic assays using lipases from Aspergillus oryzae and Candida antarctica, systematically screening reaction conditions across temperature, substrate ratio, and enzyme loading variables.",
+      "Designed and executed multi-parameter enzymatic assays using lipases from <em>Aspergillus oryzae</em> and <em>Candida antarctica</em>, systematically screening reaction conditions across temperature, substrate ratio, and enzyme loading variables.",
       "Applied Response Surface Methodology (RSM) to model parameter interactions, reducing reaction time by 25% and enzyme load by 15% while achieving yields >92%.",
       "Ran solvent-free enzymatic reactions to reduce hazardous wastes and maintain industrial viability.",
       "Verified product purity via GC analysis and compiled a reproducible, scalable protocol.",
@@ -61,7 +63,7 @@ export const projects: ResearchProject[] = [
       "This research explored green chemistry approaches to synthesize perfumery-grade esters using enzyme catalysis instead of conventional acid catalysts. Response Surface Methodology (RSM) was used to optimize multiple reaction parameters simultaneously, enabling a cleaner, faster, higher-yield process.",
     methods: [
       "Response Surface Methodology (Box-Behnken design)",
-      "Lipase-catalyzed esterification (A. oryzae and C. antarctica)",
+      "Lipase-catalyzed esterification (<em>A. oryzae</em> and <em>C. antarctica</em>)",
       "Gas Chromatography for purity analysis",
       "Solvent-free reaction optimization",
       "Multi-parameter enzymatic assays",

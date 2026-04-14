@@ -102,7 +102,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
             {project.highlights.map((h, i) => (
               <li key={i} className="flex gap-3 text-sm text-muted-foreground leading-relaxed">
                 <span className="text-primary mt-1 flex-shrink-0">▪</span>
-                {h}
+                <span dangerouslySetInnerHTML={{ __html: h ?? '' }} />
               </li>
             ))}
           </ul>
@@ -125,7 +125,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
                   className="flex items-center gap-2 p-3 rounded-lg border border-border bg-card text-sm text-foreground"
                 >
                   <span className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />
-                  {method}
+                  <span dangerouslySetInnerHTML={{ __html: method }} />
                 </div>
               ))}
             </div>

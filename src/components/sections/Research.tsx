@@ -10,7 +10,7 @@ export function Research() {
     <section id="research" className="py-20 max-w-5xl mx-auto px-4 sm:px-6">
       <SectionHeading
         title="Research"
-        subtitle="Graduate & undergraduate research projects"
+        subtitle="Graduate & Undergraduate Research Projects"
       />
 
       <div className="grid sm:grid-cols-2 gap-6">
@@ -37,7 +37,7 @@ export function Research() {
                 {project.highlights.slice(0, 2).map((h, j) => (
                   <li key={j} className="flex gap-2 text-xs text-muted-foreground leading-relaxed">
                     <span className="text-primary mt-1 flex-shrink-0">▪</span>
-                    {h}
+                    <span dangerouslySetInnerHTML={{ __html: h ?? '' }} />
                   </li>
                 ))}
               </ul>

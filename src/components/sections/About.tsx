@@ -10,9 +10,11 @@ export function About() {
       <ScrollReveal>
         <div className="grid md:grid-cols-3 gap-8">
           <div className="md:col-span-2">
-            <p className="text-foreground/90 leading-relaxed text-base sm:text-lg">
-              {personal.bio}
-            </p>
+            {personal.bio.map((para, i) => (
+              <p key={i} className="text-foreground/90 leading-relaxed text-base sm:text-lg mb-4 last:mb-0">
+                {para}
+              </p>
+            ))}
           </div>
           <div className="flex flex-col gap-4">
             <div className="rounded-xl border border-border bg-card p-5">
@@ -27,7 +29,7 @@ export function About() {
                 </div>
                 <div>
                   <span className="text-muted-foreground">Focus:</span>{" "}
-                  <span className="text-foreground">LNP Formulation · PK/PD Modeling</span>
+                  <span className="text-foreground">Protein Therapeutics · LNP Formulation · Immunology · PK/PD Modelling</span>
                 </div>
               </div>
             </div>
