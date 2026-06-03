@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, Phone, Download, ChevronDown } from "lucide-react";
+import { Mail, Phone, ChevronDown } from "lucide-react";
 import { GithubIcon, LinkedInIcon } from "@/components/ui/Icons";
 import { personal } from "@/data/personal";
 
@@ -29,7 +29,6 @@ const pillLinks = [
   { label: "LinkedIn", href: personal.linkedin, icon: LinkedInIcon, external: true },
   { label: "GitHub", href: personal.github, icon: GithubIcon, external: true },
   { label: personal.phone, href: `tel:+17163039437`, icon: Phone, external: false },
-  { label: "Resume", href: "/vrushal_portfolio/resume.pdf", icon: Download, external: false, download: true },
 ];
 
 export function Hero() {
