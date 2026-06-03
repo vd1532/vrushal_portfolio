@@ -1,4 +1,4 @@
-export type CertificationType = "certification" | "coursework" | "poster" | "license";
+export type CertificationType = "certification" | "poster" | "license";
 
 export interface Certification {
   name: string;
@@ -7,9 +7,9 @@ export interface Certification {
 }
 
 export const certifications: Certification[] = [
-  { name: "Advanced Topics in PK/PD Modeling & Analysis with ADAPT 5", year: 2025, type: "coursework" },
-  { name: "SimBiology", year: 2025, type: "coursework" },
-  { name: "Modelling & Simulations using Monolix Suite™", year: 2025, type: "coursework" },
+  { name: "Advanced Topics in PK/PD Modeling & Analysis with ADAPT 5", year: 2025, type: "certification" },
+  { name: "SimBiology", year: 2025, type: "certification" },
+  { name: "Modelling & Simulations using Monolix Suite™", year: 2025, type: "certification" },
   { name: "PKPD Modeling Workshop Using Phoenix", year: 2024, type: "certification" },
   { name: "Safety & Risk Management", year: 2020, type: "certification" },
   {

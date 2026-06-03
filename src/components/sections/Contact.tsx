@@ -192,11 +192,6 @@ export function Contact() {
               ))}
             </div>
 
-            <div className="rounded-xl border border-border bg-card/50 p-5">
-              <p className="text-xs text-muted-foreground leading-relaxed">
-                {personal.resumeSummary}
-              </p>
-            </div>
           </div>
         </ScrollReveal>
       </div>

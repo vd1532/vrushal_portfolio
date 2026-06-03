@@ -1,7 +1,7 @@
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { certifications, type CertificationType } from "@/data/certifications";
-import { Award, BookOpen, Presentation, BadgeCheck } from "lucide-react";
+import { Award, Presentation, BadgeCheck } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const typeConfig: Record<
@@ -13,12 +13,6 @@ const typeConfig: Record<
     icon: Award,
     color: "text-amber-500",
     badge: "bg-amber-500/10 text-amber-600 dark:text-amber-300",
-  },
-  coursework: {
-    label: "Advanced Coursework",
-    icon: BookOpen,
-    color: "text-blue-500",
-    badge: "bg-blue-500/10 text-blue-600 dark:text-blue-300",
   },
   poster: {
     label: "Poster Presentations",
@@ -34,7 +28,7 @@ const typeConfig: Record<
   },
 };
 
-const groupOrder: CertificationType[] = ["certification", "coursework", "poster", "license"];
+const groupOrder: CertificationType[] = ["certification", "poster", "license"];
 
 export function Certifications() {
   const grouped = groupOrder.reduce<Record<CertificationType, typeof certifications>>(
@@ -42,7 +36,7 @@ export function Certifications() {
       acc[type] = certifications.filter((c) => c.type === type);
       return acc;
     },
-    { certification: [], coursework: [], poster: [], license: [] }
+    { certification: [], poster: [], license: [] }
   );
 
   return (

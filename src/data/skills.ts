@@ -14,6 +14,10 @@ export const skillCategories: SkillCategory[] = [
       "Cell Viability Assays",
       "Micro BCA Protein Quantification",
       "Imaging Cytometer",
+      "PCR",
+      "qPCR",
+      "Western Blot",
+      "Flow Cytometry",
     ],
   },
   {
@@ -21,16 +25,16 @@ export const skillCategories: SkillCategory[] = [
     skills: [
       "LNP Formulation",
       "DLS",
-      "PSvue™",
-      "DPH Anisotropy",
       "GC-MS",
       "Head Space Analysis",
-      "SEC-HPLC",
+      "SEC",
+      "UPLC",
       "FTIR",
       "UV-Vis Spectrophotometer",
       "Spectrofluorometer",
       "TEM",
       "Circular Dichroism",
+      "DSC",
     ],
   },
   {
@@ -47,6 +51,6 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     name: "Data & Productivity",
-    skills: ["R Programming", "GraphPad Prism®", "DoE / RSM", "ChemDraw", "Microsoft Suite"],
+    skills: ["R Programming", "GraphPad Prism®", "DoE / RSM", "ChemDraw", "Microsoft Suite", "Statistical Analysis"],
   },
 ];

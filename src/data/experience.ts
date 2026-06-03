@@ -16,7 +16,7 @@ export const experiences: ExperienceEntry[] = [
     duration: "2 years 8 months",
     description: [
       "Developed market-specific fragrance formulations for cross-regional portfolios (India, Middle East, Sweden, Sri Lanka, Bangladesh), directly contributing to >30% year-over-year revenue growth.",
-      "Built and curated a reference library of 2,000+ aroma chemicals and integrated structured datasets to enable systematic olfactory matching and formulation screening.",
+      "Built and curated a reference library of 200+ aroma chemicals and integrated structured datasets to enable systematic olfactory matching and formulation screening.",
       "Conducted sensory evaluation panels to optimize fragrance profiles across product categories, informing formulation iterations based on structured feedback.",
       "Authored formulation batch records and evaluation reports to accelerate development cycles and maintain a centralized knowledge base.",
     ],

@@ -13,7 +13,7 @@ export const education: EducationEntry[] = [
     field: "Pharmaceutical Sciences",
     institution: "State University of New York (SUNY) at Buffalo, NY",
     period: "Aug 2024 – May 2026",
-    gpa: "GPA 3.40 / 4.0",
+    gpa: "GPA 3.42 / 4.0",
     courses: ["Pharmacokinetics", "Biologics", "Pharmacogenomics", "Pharmacometrics Software", "Biometry"],
   },
   {
