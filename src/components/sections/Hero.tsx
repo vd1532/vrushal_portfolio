@@ -93,7 +93,6 @@ export function Hero() {
               href={link.href}
               target={link.external ? "_blank" : undefined}
               rel={link.external ? "noopener noreferrer" : undefined}
-              download={link.download}
               className="inline-flex items-center gap-2 px-4 py-2.5 rounded-full text-sm font-medium border border-border text-foreground hover:border-primary hover:text-primary hover:bg-primary/5 transition-all duration-200"
             >
               <link.icon size={15} />
