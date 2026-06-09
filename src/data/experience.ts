@@ -9,7 +9,7 @@ export interface ExperienceEntry {
 
 export const experiences: ExperienceEntry[] = [
   {
-    title: "Junior Perfumer",
+    title: "R&D Scientist",
     company: "Eagle Wings Enterprises LLP",
     location: "Mumbai, Maharashtra, India",
     period: "Nov 2021 – Jun 2024",
